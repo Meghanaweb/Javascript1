@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.slideimagecontainer {
+  height: 300px;
+  width: 400px;
+  background-color: bisque;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+}
+.container {
+  color: rgb(13, 0, 255);
+}
+img {
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+}
+.btn {
+  position: relative;
+
+  transform: translateX();
+  color: brown;
+  text-shadow: 0 3px 8px;
+  font-size: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  color: beige;
+}
+.btn.right {
+  left: 150px;
+  bottom: 80px;
+}
+.btn.left {
+  right: 150px;
+  bottom: 100px;
+}

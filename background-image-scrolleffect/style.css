@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.bgimage {
+  width: 100%;
+  height: 100vh;
+  background: url("https://img.freepik.com/free-photo/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal_181624-24825.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  color: dimgrey;
+}
+.container {
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .container {
+    padding: 100px;
+  }
+}
